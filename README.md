@@ -1,62 +1,82 @@
+<!DOCTYPE html>
 <html lang="ar" dir="rtl">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Ibrahim Shot</title>
   <style>
+    :root {
+      --mint: #0ff;
+      --black: #000;
+      --white: #fff;
+      --gray: #aaa;
+    }
+
     body {
       margin: 0;
-      padding: 0;
-      background-color: #000;
+      background-color: var(--black);
+      color: var(--white);
       font-family: 'Segoe UI', Tahoma, sans-serif;
-      color: #fff;
-      text-align: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
       padding: 40px 20px;
+      text-align: center;
     }
 
     h1 {
       font-size: 3em;
-      margin-bottom: 10px;
+      margin-bottom: 0.3em;
     }
 
     p {
+      color: var(--gray);
       font-size: 1.2em;
-      margin: 5px 0 20px;
-      color: #ccc;
+      margin: 0.2em 0 1.5em;
     }
 
     .logo {
-      font-size: 2em;
+      font-size: 2.2em;
       font-weight: bold;
-      color: #0ff;
-      margin: 30px 0;
+      color: var(--mint);
+      margin: 2em 0 1em;
+      letter-spacing: 1px;
+    }
+
+    .links {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      max-width: 300px;
+      gap: 15px;
+      margin-bottom: 2em;
     }
 
     .links a {
-      display: block;
-      background-color: #fff;
-      color: #000;
+      background-color: var(--white);
+      color: var(--black);
       padding: 15px;
-      margin: 10px auto;
-      width: 260px;
       border-radius: 10px;
       text-decoration: none;
-      font-size: 1.1em;
       font-weight: bold;
-      transition: all 0.3s ease;
+      font-size: 1.1em;
+      transition: background-color 0.3s, color 0.3s;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.3);
     }
 
     .links a:hover {
-      background-color: #0ff;
-      color: #000;
+      background-color: var(--mint);
+      color: var(--black);
     }
 
     .social-icons {
-      margin-top: 30px;
+      display: flex;
+      justify-content: center;
+      gap: 25px;
+      margin-top: 20px;
     }
 
     .social-icons a {
-      margin: 0 10px;
       display: inline-block;
     }
 
@@ -64,11 +84,17 @@
       width: 40px;
       height: 40px;
       filter: brightness(0);
-      transition: transform 0.3s ease;
+      transition: transform 0.3s;
     }
 
     .social-icons a:hover img {
-      transform: scale(1.1);
+      transform: scale(1.15);
+    }
+
+    footer {
+      margin-top: 40px;
+      font-size: 0.9em;
+      color: #666;
     }
   </style>
 </head>
@@ -93,6 +119,10 @@
       <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon_black.svg" alt="Instagram">
     </a>
   </div>
+
+  <footer>
+    &copy; 2025 Ibrahim Shot. جميع الحقوق محفوظة.
+  </footer>
 
 </body>
 </html>
