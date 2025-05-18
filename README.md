@@ -60,20 +60,6 @@
     .link-button:hover {
       background-color: #ddd;
     }
-
-    .link-button img {
-      width: 28px;
-      height: 28px;
-      margin-left: 10px;
-    }
-
-    .tiktok-icon {
-      filter: invert(0%);
-    }
-
-    .instagram-icon {
-      filter: invert(0%);
-    }
   </style>
 </head>
 <body>
@@ -83,14 +69,8 @@
   <p>للطلب تواصلوا استقرام</p>
 
   <div class="links">
-    <a href="https://www.tiktok.com/@proshotsa" target="_blank" class="link-button" aria-label="TikTok">
-      تيك توك
-      <img class="tiktok-icon" src="https://cdn-icons-png.flaticon.com/512/3046/3046121.png" alt="TikTok Icon" />
-    </a>
-    <a href="https://www.instagram.com/proshotsa" target="_blank" class="link-button" aria-label="Instagram">
-      انستقرام
-      <img class="instagram-icon" src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" alt="Instagram Icon" />
-    </a>
+    <a href="https://www.tiktok.com/@proshotsa" target="_blank" class="link-button" aria-label="TikTok">تيك توك</a>
+    <a href="https://www.instagram.com/proshotsa" target="_blank" class="link-button" aria-label="Instagram">انستقرام</a>
   </div>
 </body>
 </html>
