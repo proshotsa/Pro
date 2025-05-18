@@ -63,7 +63,7 @@
   </style>
 </head>
 <body>
-  <div class="logo">ProShotSA</div>
+  
   <h1>Ibrahim Shot</h1>
   <p>اهلا بكم</p>
   <p>للطلب تواصلوا استقرام</p>
