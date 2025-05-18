@@ -1,97 +1,96 @@
-<!DOCTYPE html>
 <html lang="ar" dir="rtl">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Ibrahim Shot</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap" rel="stylesheet" />
   <style>
     body {
       margin: 0;
-      font-family: 'Cairo', sans-serif;
       background-color: #000;
       color: white;
+      font-family: 'Cairo', sans-serif;
       display: flex;
       flex-direction: column;
       align-items: center;
       justify-content: center;
       min-height: 100vh;
       text-align: center;
-    }
-
-    header {
-      margin-bottom: 20px;
+      padding: 20px;
     }
 
     .logo {
-      font-size: 24px;
+      font-size: 28px;
       font-weight: bold;
+      margin-bottom: 15px;
       color: white;
-      margin-bottom: 10px;
     }
 
     h1 {
       font-size: 36px;
-      margin-bottom: 10px;
+      margin: 0 0 10px 0;
     }
 
     p {
-      font-size: 20px;
-      margin-bottom: 20px;
+      font-size: 22px;
+      margin: 5px 0 25px 0;
     }
 
-    a {
+    .links {
+      display: flex;
+      gap: 20px;
+      justify-content: center;
+    }
+
+    .link-button {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: white;
+      border-radius: 50px;
+      width: 140px;
+      height: 50px;
       text-decoration: none;
       color: black;
-      background-color: white;
-      padding: 10px 20px;
-      margin: 10px;
-      border-radius: 50px;
-      display: inline-flex;
-      align-items: center;
-      transition: 0.3s;
+      font-weight: 700;
+      font-size: 18px;
+      transition: background-color 0.3s ease, color 0.3s ease;
     }
 
-    a:hover {
-      opacity: 0.8;
+    .link-button:hover {
+      background-color: #ddd;
     }
 
-    .icons {
-      font-size: 20px;
+    .link-button img {
+      width: 28px;
+      height: 28px;
       margin-left: 10px;
     }
 
-    .social-links {
-      margin-top: 20px;
+    .tiktok-icon {
+      filter: invert(0%);
     }
 
-    .icon-img {
-      width: 24px;
-      height: 24px;
-      margin-left: 10px;
+    .instagram-icon {
+      filter: invert(0%);
     }
   </style>
 </head>
 <body>
+  <div class="logo">ProShotSA</div>
+  <h1>Ibrahim Shot</h1>
+  <p>اهلا بكم</p>
+  <p>للطلب تواصلوا استقرام</p>
 
-  <header>
-    <div class="logo">ProShotSA</div>
-    <h1>Ibrahim Shot</h1>
-    <p>حياكم في صفحتي <br> للطلب تواصلوا استقرام</p>
-  </header>
-
-  <div class="social-links">
-    <a href="https://www.instagram.com/proshotsa" target="_blank">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram" class="icon-img">
-      انستقرام
-    </a>
-
-    <a href="https://www.tiktok.com/@proshotsa" target="_blank">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/0/09/TikTok_logo.svg" alt="TikTok" class="icon-img">
+  <div class="links">
+    <a href="https://www.tiktok.com/@proshotsa" target="_blank" class="link-button" aria-label="TikTok">
       تيك توك
+      <img class="tiktok-icon" src="https://cdn-icons-png.flaticon.com/512/3046/3046121.png" alt="TikTok Icon" />
+    </a>
+    <a href="https://www.instagram.com/proshotsa" target="_blank" class="link-button" aria-label="Instagram">
+      انستقرام
+      <img class="instagram-icon" src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" alt="Instagram Icon" />
     </a>
   </div>
-
 </body>
 </html>
