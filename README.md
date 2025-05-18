@@ -39,9 +39,9 @@
       transition: 0.3s;
     }
     .links a:hover {
-      background-color: #333;
+      background-color: #fff;
       color: #fff;
-      border-color: #777;
+      border-color: #000;
     }
     .social-icons {
       margin-top: 40px;
