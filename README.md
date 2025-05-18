@@ -2,127 +2,96 @@
 <html lang="ar" dir="rtl">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Ibrahim Shot</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap" rel="stylesheet">
   <style>
-    :root {
-      --mint: #0ff;
-      --black: #000;
-      --white: #fff;
-      --gray: #aaa;
-    }
-
     body {
       margin: 0;
-      background-color: var(--black);
-      color: var(--white);
-      font-family: 'Segoe UI', Tahoma, sans-serif;
+      font-family: 'Cairo', sans-serif;
+      background-color: #000;
+      color: white;
       display: flex;
       flex-direction: column;
       align-items: center;
-      padding: 40px 20px;
+      justify-content: center;
+      min-height: 100vh;
       text-align: center;
     }
 
-    h1 {
-      font-size: 3em;
-      margin-bottom: 0.3em;
-    }
-
-    p {
-      color: var(--gray);
-      font-size: 1.2em;
-      margin: 0.2em 0 1.5em;
+    header {
+      margin-bottom: 20px;
     }
 
     .logo {
-      font-size: 2.2em;
+      font-size: 24px;
       font-weight: bold;
-      color: var(--mint);
-      margin: 2em 0 1em;
-      letter-spacing: 1px;
+      color: white;
+      margin-bottom: 10px;
     }
 
-    .links {
-      display: flex;
-      flex-direction: column;
-      width: 100%;
-      max-width: 300px;
-      gap: 15px;
-      margin-bottom: 2em;
+    h1 {
+      font-size: 36px;
+      margin-bottom: 10px;
     }
 
-    .links a {
-      background-color: var(--white);
-      color: var(--black);
-      padding: 15px;
-      border-radius: 10px;
+    p {
+      font-size: 20px;
+      margin-bottom: 20px;
+    }
+
+    a {
       text-decoration: none;
-      font-weight: bold;
-      font-size: 1.1em;
-      transition: background-color 0.3s, color 0.3s;
-      box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+      color: black;
+      background-color: white;
+      padding: 10px 20px;
+      margin: 10px;
+      border-radius: 50px;
+      display: inline-flex;
+      align-items: center;
+      transition: 0.3s;
     }
 
-    .links a:hover {
-      background-color: var(--mint);
-      color: var(--black);
+    a:hover {
+      opacity: 0.8;
     }
 
-    .social-icons {
-      display: flex;
-      justify-content: center;
-      gap: 25px;
+    .icons {
+      font-size: 20px;
+      margin-left: 10px;
+    }
+
+    .social-links {
       margin-top: 20px;
     }
 
-    .social-icons a {
-      display: inline-block;
-    }
-
-    .social-icons img {
-      width: 40px;
-      height: 40px;
-      filter: brightness(0);
-      transition: transform 0.3s;
-    }
-
-    .social-icons a:hover img {
-      transform: scale(1.15);
-    }
-
-    footer {
-      margin-top: 40px;
-      font-size: 0.9em;
-      color: #666;
+    .icon-img {
+      width: 24px;
+      height: 24px;
+      margin-left: 10px;
     }
   </style>
 </head>
 <body>
 
-  <h1>Ibrahim Shot</h1>
-  <p>حياكم في صفحتي</p>
-  <p>للطلب تواصلوا استقرام</p>
+  <header>
+    <div class="logo">ProShotSA</div>
+    <h1>Ibrahim Shot</h1>
+    <p>حياكم في صفحتي <br> للطلب تواصلوا استقرام</p>
+  </header>
 
-  <div class="logo">ProShotSA</div>
-
-  <div class="links">
-    <a href="https://www.instagram.com/proshotsa" target="_blank">Instagram</a>
-    <a href="https://www.tiktok.com/@proshotsa" target="_blank">TikTok</a>
-  </div>
-
-  <div class="social-icons">
-    <a href="https://www.tiktok.com/@proshotsa" target="_blank">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/a/a9/TikTok_icon_black.svg" alt="TikTok">
-    </a>
+  <div class="social-links">
     <a href="https://www.instagram.com/proshotsa" target="_blank">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon_black.svg" alt="Instagram">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram" class="icon-img">
+      انستقرام
+    </a>
+
+    <a href="https://www.tiktok.com/@proshotsa" target="_blank">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/0/09/TikTok_logo.svg" alt="TikTok" class="icon-img">
+      تيك توك
     </a>
   </div>
-
-  <footer>
-    &copy; 2025 Ibrahim Shot. جميع الحقوق محفوظة.
-  </footer>
 
 </body>
 </html>
