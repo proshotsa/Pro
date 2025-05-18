@@ -1,4 +1,3 @@
-
 <html lang="ar" dir="rtl">
 <head>
   <meta charset="UTF-8">
@@ -61,7 +60,7 @@
   <p>حياكم في صفحتي</p>
   <p>للطلب تواصلوا استقرام</p>
 
-  <div class="logo">ProShotSA</div>
+  
 
   <div class="links">
     <a href="https://www.Instagram.com/proshotsa" target="_blank">Instagram</a>
