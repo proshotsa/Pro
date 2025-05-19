@@ -70,7 +70,7 @@
 
   <div class="links">
     <a href="https://www.tiktok.com/@proshotsa" target="_blank" class="link-button" aria-label="TikTok">تيك توك</a>
-    <a href="https://www.instagram.com/proshotsa" target="_blank" class="link-button" aria-label="Instagram">استقرام</a>
+    <a href="https://www.instagram.com/shotibrahim" target="_blank" class="link-button" aria-label="Instagram">استقرام</a>
   </div>
 </body>
 </html>
